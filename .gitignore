@@ -1,0 +1,44 @@
+# Скомпилированные классы
+*.class
+com/main/*.class
+
+# JAR-файлы (исполняемые и обычные)
+*.jar
+*.war
+*.ear
+
+# Папка для сборки (если используется Maven/Gradle)
+target/
+build/
+out/
+bin/
+
+# Файлы логов
+*.log
+
+# Временные файлы
+*.tmp
+*.swp
+*.swo
+*~
+
+# Файлы настройки IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# Файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
